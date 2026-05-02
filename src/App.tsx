@@ -26,7 +26,7 @@ const EPISODES = [
     id: 3,
     title: "Private vs Government Schools",
     description: "Is it better education or just better marketing? A headmaster breaks it down.",
-    image: "images/private.jpeg",
+    image: "/images/private.jpeg",
     tag: "Education"
   },
   {
