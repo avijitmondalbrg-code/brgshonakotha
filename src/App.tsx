@@ -7,47 +7,60 @@ import { motion } from "motion/react";
 import { ArrowRight, Mic, Play, MessageSquare, Users, Heart, ExternalLink, Menu, X, Sparkles } from "lucide-react";
 import { useState } from "react";
 
+// Import images
+import cleftImg from "./assets/images/cleft.jpeg";
+import facialImg from "./assets/images/facial.jpeg";
+import privateImg from "./assets/images/private.jpeg";
+import musicImg from "./assets/images/music.jpeg";
+import swamiImg from "./assets/images/swami.png";
+import talentImg from "./assets/images/talent.jpeg";
+import logoImg from "./assets/images/brg_shona_kotha-logo.png";
+import rjDeepImg from "./assets/images/rjdeep.jpeg";
+import logobrgImg from "./assets/images/logobrg.png";
+import img1Img from "./assets/images/img1.jpeg";
+import deep1Img from "./assets/images/deep1.jpeg";
+
 const EPISODES = [
   {
     id: 1,
     title: "Cleft Surgeries & Two Worlds",
     description: "One surgeon. Two completely different worlds. An insight into life-changing medical procedures.",
-    image: "/images/Cleft.jpeg",
+    image: cleftImg,
     tag: "Medical"
   },
   {
     id: 2,
     title: "The Reality of Facial Reconstruction",
     description: "Beyond the surface: Understanding the decisions, numbers, and expectations in surgery.",
-    image: "/images/facial.jpeg",
+    image: facialImg,
     tag: "Life"
   },
   {
     id: 3,
     title: "Private vs Government Schools",
     description: "Is it better education or just better marketing? A headmaster breaks it down.",
-    image: "/images/private.jpeg",
+    image: privateImg,
     tag: "Education"
   },
   {
     id: 4,
     title: "Music, Memories & Melodies",
     description: "A deep dive into the stories behind the songs that stay in our hearts forever.",
-    image: "/images/music.jpeg",
+    image: musicImg,
     tag: "Art"
   },
   {
     id: 5,
     title: "Redefining Success",
     description: "A conversation with Swami Brahmatmananda Ji Maharaj on finding your own path.",
-    image: "/images/swami.png",
+    image: swamiImg,
     tag: "Philosophy"
   },
   {
     id: 6,
     title: "Talent vs Opportunity",
     description: "Which one truly matters? Exploring the journey of creative individuals.",
-    image: "/images/talent.jpeg",
+    image: talentImg,
     tag: "Careers"
   }
 ];
@@ -61,7 +74,7 @@ export default function App() {
       <nav className="h-20 px-6 md:px-12 flex items-center justify-between border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-3">
           <img 
-            src="https://ibb.co/album/VJ7RM4" 
+            src={logoImg} 
             alt="BRG SHONA KOTHA Logo" 
             className="h-24 w-auto object-contain"
           />
@@ -165,7 +178,7 @@ export default function App() {
             >
               <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white max-w-md mx-auto aspect-[3/4]">
                 <img 
-                  src="https://freeimage.host/i/BQsUoVS" 
+                  src={rjDeepImg} 
                   alt="Deep - Host"
                   className="w-full h-full object-cover"
                 />
@@ -186,7 +199,7 @@ export default function App() {
         {/* Brand Banner */}
         <div className="bg-slate-50 border-y border-slate-100 overflow-hidden py-10">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 opacity-50 grayscale hover:grayscale-0 transition-all">
-            <img src="/images/logobrg.png" className="h-16 object-contain" alt="Supported by BRG" />
+            <img src={logobrgImg} className="h-16 object-contain" alt="Supported by BRG" />
             <div className="text-center md:text-right">
               <span className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400 block mb-2">Supported by</span>
               <p className="font-bold text-slate-900 leading-tight">Bengal Rehabilitation Group</p>
@@ -217,7 +230,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-6">
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform -rotate-2">
-                  <img src="/images/img1.jpeg" className="w-full h-full object-cover" alt="Voices" />
+                  <img src={img1Img} className="w-full h-full object-cover" alt="Voices" />
                 </div>
                 <div className="p-8 bg-blue-600 text-white rounded-3xl shadow-xl shadow-blue-200">
                   <Heart className="mb-4" />
@@ -232,7 +245,7 @@ export default function App() {
                   <p className="text-xs font-bold opacity-80 uppercase tracking-widest">A dedicated space for voices that truly matter.</p>
                 </div>
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform rotate-2">
-                  <img src="/images/deep1.jpeg" className="w-full h-full object-cover" alt="Deep" />
+                  <img src={deep1Img} className="w-full h-full object-cover" alt="Deep" />
                 </div>
               </div>
             </div>
@@ -329,7 +342,7 @@ export default function App() {
             <div className="space-y-6">
               <div className="flex items-center justify-center lg:justify-start gap-3">
                 <img 
-                  src="/images/brg_shona_kotha-logo.png" 
+                  src={logoImg} 
                   alt="BRG SHONA KOTHA Logo" 
                   className="h-20 w-auto object-contain"
                 />
