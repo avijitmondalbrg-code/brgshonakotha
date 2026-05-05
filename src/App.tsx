@@ -64,6 +64,7 @@ export default function App() {
             src="/images/brg_shona_kotha-logo.png" 
             alt="BRG SHONA KOTHA Logo" 
             className="h-24 w-auto object-contain"
+            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -168,6 +169,7 @@ export default function App() {
                   src="/images/rjDeep.jpeg" 
                   alt="Deep - Host"
                   className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-slate-900/60 to-transparent flex items-end p-8">
                   <div className="text-white">
@@ -186,7 +188,7 @@ export default function App() {
         {/* Brand Banner */}
         <div className="bg-slate-50 border-y border-slate-100 overflow-hidden py-10">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 opacity-50 grayscale hover:grayscale-0 transition-all">
-            <img src="/images/logobrg.png" className="h-16 object-contain" alt="Supported by BRG" />
+            <img src="/images/logobrg.png" className="h-16 object-contain" alt="Supported by BRG" referrerPolicy="no-referrer" />
             <div className="text-center md:text-right">
               <span className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400 block mb-2">Supported by</span>
               <p className="font-bold text-slate-900 leading-tight">Bengal Rehabilitation Group</p>
@@ -217,7 +219,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-6">
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform -rotate-2">
-                  <img src="/images/img1.jpeg" className="w-full h-full object-cover" alt="Voices" />
+                  <img src="/images/img1.jpeg" className="w-full h-full object-cover" alt="Voices" referrerPolicy="no-referrer" />
                 </div>
                 <div className="p-8 bg-blue-600 text-white rounded-3xl shadow-xl shadow-blue-200">
                   <Heart className="mb-4" />
@@ -232,7 +234,7 @@ export default function App() {
                   <p className="text-xs font-bold opacity-80 uppercase tracking-widest">A dedicated space for voices that truly matter.</p>
                 </div>
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform rotate-2">
-                  <img src="/images/deep1.jpeg" className="w-full h-full object-cover" alt="Deep" />
+                  <img src="/images/deep1.jpeg" className="w-full h-full object-cover" alt="Deep" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>
@@ -260,7 +262,7 @@ export default function App() {
                   className="group bg-white rounded-[2.5rem] overflow-hidden shadow-2xl shadow-slate-200/50 border border-slate-100 flex flex-col"
                 >
                   <div className="aspect-[4/3] overflow-hidden relative">
-                    <img src={episode.image} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt={episode.title} />
+                    <img src={episode.image} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt={episode.title} referrerPolicy="no-referrer" />
                     <div className="absolute top-6 left-6">
                       <span className="px-4 py-2 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-widest text-blue-600 shadow-sm">
                         {episode.tag}
@@ -332,6 +334,7 @@ export default function App() {
                   src="/images/brg_shona_kotha-logo.png" 
                   alt="BRG SHONA KOTHA Logo" 
                   className="h-20 w-auto object-contain"
+                  referrerPolicy="no-referrer"
                 />
               </div>
               <p className="text-sm text-slate-400 font-medium leading-relaxed">
