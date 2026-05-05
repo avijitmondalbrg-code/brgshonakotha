@@ -165,7 +165,7 @@ export default function App() {
             >
               <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white max-w-md mx-auto aspect-[3/4]">
                 <img 
-                  src="/images/rjDeep.jpeg" 
+                  src="https://freeimage.host/i/BQsUoVS" 
                   alt="Deep - Host"
                   className="w-full h-full object-cover"
                 />
