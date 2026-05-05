@@ -12,42 +12,42 @@ const EPISODES = [
     id: 1,
     title: "Cleft Surgeries & Two Worlds",
     description: "One surgeon. Two completely different worlds. An insight into life-changing medical procedures.",
-    image: "/images/Cleft.jpeg",
+    image: "/img/Cleft.jpeg",
     tag: "Medical"
   },
   {
     id: 2,
     title: "The Reality of Facial Reconstruction",
     description: "Beyond the surface: Understanding the decisions, numbers, and expectations in surgery.",
-    image: "/images/facial.jpeg",
+    image: "/img/facial.jpeg",
     tag: "Life"
   },
   {
     id: 3,
     title: "Private vs Government Schools",
     description: "Is it better education or just better marketing? A headmaster breaks it down.",
-    image: "/images/private.jpeg",
+    image: "/img/private.jpeg",
     tag: "Education"
   },
   {
     id: 4,
     title: "Music, Memories & Melodies",
     description: "A deep dive into the stories behind the songs that stay in our hearts forever.",
-    image: "/images/music.jpeg",
+    image: "/img/music.jpeg",
     tag: "Art"
   },
   {
     id: 5,
     title: "Redefining Success",
     description: "A conversation with Swami Brahmatmananda Ji Maharaj on finding your own path.",
-    image: "/images/swami.png",
+    image: "/img/swami.png",
     tag: "Philosophy"
   },
   {
     id: 6,
     title: "Talent vs Opportunity",
     description: "Which one truly matters? Exploring the journey of creative individuals.",
-    image: "/images/talent.jpeg",
+    image: "/img/talent.jpeg",
     tag: "Careers"
   }
 ];
@@ -61,7 +61,7 @@ export default function App() {
       <nav className="h-20 px-6 md:px-12 flex items-center justify-between border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-3">
           <img 
-            src="/images/brg_shona_kotha-logo.png" 
+            src="/img/brg_shona_kotha-logo.png" 
             alt="BRG SHONA KOTHA Logo" 
             className="h-24 w-auto object-contain"
             referrerPolicy="no-referrer"
@@ -166,7 +166,7 @@ export default function App() {
             >
               <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white max-w-md mx-auto aspect-[3/4]">
                 <img 
-                  src="/images/rjDeep.jpeg" 
+                  src="/img/rjDeep.jpeg" 
                   alt="Deep - Host"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -188,7 +188,7 @@ export default function App() {
         {/* Brand Banner */}
         <div className="bg-slate-50 border-y border-slate-100 overflow-hidden py-10">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 opacity-50 grayscale hover:grayscale-0 transition-all">
-            <img src="/images/logobrg.png" className="h-16 object-contain" alt="Supported by BRG" referrerPolicy="no-referrer" />
+            <img src="/img/logobrg.png" className="h-16 object-contain" alt="Supported by BRG" referrerPolicy="no-referrer" />
             <div className="text-center md:text-right">
               <span className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400 block mb-2">Supported by</span>
               <p className="font-bold text-slate-900 leading-tight">Bengal Rehabilitation Group</p>
@@ -219,7 +219,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-6">
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform -rotate-2">
-                  <img src="/images/img1.jpeg" className="w-full h-full object-cover" alt="Voices" referrerPolicy="no-referrer" />
+                  <img src="/img/img1.jpeg" className="w-full h-full object-cover" alt="Voices" referrerPolicy="no-referrer" />
                 </div>
                 <div className="p-8 bg-blue-600 text-white rounded-3xl shadow-xl shadow-blue-200">
                   <Heart className="mb-4" />
@@ -234,7 +234,7 @@ export default function App() {
                   <p className="text-xs font-bold opacity-80 uppercase tracking-widest">A dedicated space for voices that truly matter.</p>
                 </div>
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform rotate-2">
-                  <img src="/images/deep1.jpeg" className="w-full h-full object-cover" alt="Deep" referrerPolicy="no-referrer" />
+                  <img src="/img/deep1.jpeg" className="w-full h-full object-cover" alt="Deep" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>
@@ -331,7 +331,7 @@ export default function App() {
             <div className="space-y-6">
               <div className="flex items-center justify-center lg:justify-start gap-3">
                 <img 
-                  src="/images/brg_shona_kotha-logo.png" 
+                  src="/img/brg_shona_kotha-logo.png" 
                   alt="BRG SHONA KOTHA Logo" 
                   className="h-20 w-auto object-contain"
                   referrerPolicy="no-referrer"
