@@ -61,7 +61,7 @@ export default function App() {
       <nav className="h-20 px-6 md:px-12 flex items-center justify-between border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-3">
           <img 
-            src="/images/brg_shona_kotha-logo.png" 
+            src="https://www.bengalrehabilitationgroup.com/images/brg_logo.png" 
             alt="BRG SHONA KOTHA Logo" 
             className="h-24 w-auto object-contain"
           />
