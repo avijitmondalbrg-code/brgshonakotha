@@ -13,42 +13,48 @@ const EPISODES = [
     title: "Cleft Surgeries & Two Worlds",
     description: "One surgeon. Two completely different worlds. An insight into life-changing medical procedures.",
     image: "/images/cleft.jpeg",
-    tag: "Medical"
+    tag: "Medical",
+    youtubeUrl: "https://www.youtube.com/watch?v=0_0CtIC4nCE"
   },
   {
     id: 2,
     title: "The Reality of Facial Reconstruction",
     description: "Beyond the surface: Understanding the decisions, numbers, and expectations in surgery.",
     image: "/images/facial.jpeg",
-    tag: "Life"
+    tag: "Life",
+    youtubeUrl: "https://www.youtube.com/watch?v=0_0CtIC4nCE"
   },
   {
     id: 3,
     title: "Private vs Government Schools",
     description: "Is it better education or just better marketing? A headmaster breaks it down.",
     image: "/images/private.jpeg",
-    tag: "Education"
+    tag: "Education",
+    youtubeUrl: "https://www.youtube.com/watch?v=4yHuHTw9zbs&t=1360s"
   },
   {
     id: 4,
     title: "Music, Memories & Melodies",
     description: "A deep dive into the stories behind the songs that stay in our hearts forever.",
     image: "/images/music.jpeg",
-    tag: "Art"
+    tag: "Art",
+    youtubeUrl: "https://www.youtube.com/watch?v=GoZ-2FkgRAc"
   },
   {
     id: 5,
     title: "Redefining Success",
     description: "A conversation with Swami Brahmatmananda Ji Maharaj on finding your own path.",
     image: "/images/swami.png",
-    tag: "Philosophy"
+    tag: "Philosophy",
+    youtubeUrl: "https://www.youtube.com/watch?v=xM0HrF9NOis"
   },
   {
     id: 6,
     title: "Talent vs Opportunity",
     description: "Which one truly matters? Exploring the journey of creative individuals.",
     image: "/images/talent.jpeg",
-    tag: "Careers"
+    tag: "Careers",
+    youtubeUrl: "https://www.youtube.com/watch?v=GoZ-2FkgRAc"
   }
 ];
 
@@ -280,7 +286,7 @@ export default function App() {
                       {episode.description}
                     </p>
                     <a 
-                      href="https://www.youtube.com/watch?v=0_0CtIC4nCE" 
+                      href={episode.youtubeUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="mt-auto flex items-center gap-2 font-black text-[10px] uppercase tracking-widest text-blue-600 group-hover:gap-4 transition-all"
