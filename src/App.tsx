@@ -232,7 +232,7 @@ export default function App() {
                   <p className="text-xs font-bold opacity-80 uppercase tracking-widest">A dedicated space for voices that truly matter.</p>
                 </div>
                 <div className="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white transform rotate-2">
-                  <img src="https://ibb.co/h6jCV7p" className="w-full h-full object-cover" alt="Deep" />
+                  <img src="/images/deep1.jpeg" className="w-full h-full object-cover" alt="Deep" />
                 </div>
               </div>
             </div>
